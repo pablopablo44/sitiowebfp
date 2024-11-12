@@ -1,0 +1,43 @@
+
+<h2>formulario</h2>
+<form action="formulario/contacto.html" method="get">
+    <legend>formulario</legend>
+    <fieldset>
+        
+        <label for="nombre">Nombre</label>
+        <input type="text"	name="campo_nombre" id="nombre" placeholder="escribe nombre" required>
+
+    </fieldset>
+    <fieldset>
+        <legend>titulo interno</legend>
+
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido" name="apell" value="Ruiz" disabled>
+        <br>
+
+        <h3>elige ciudad</h3>
+    
+        <input type="radio"  id="ciudad1" name="ciudad" value="Madrid">
+        <label for="ciudad1">Madrid</label><br>
+
+        <input type="radio"  id="ciudad2" name="ciudad" value="Barcelona">
+        <label for="ciudad2">Barcelona</label><br>
+
+        
+        <label for="descripcion">texto descripcion</label> 
+        <textarea id="descripcion" name="desc" placeholder="escribe..." maxlength="200"></textarea> 
+        <br>
+
+        <label for="talla">elige talla</label> 
+        <select id="talla" name="tall"> 
+        <option value="s">Small</option> 
+        <option value="m">Medium</option> 
+        <option value="l">Large</option> 
+        </select>
+        <br><br>
+
+        <input type="submit" value="ENVIAR"> 
+        <input type="reset" value="reiniciar">			
+        
+    </fieldset>
+</form>
